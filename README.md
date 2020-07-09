@@ -27,7 +27,7 @@ marks and brackets from the set []{}().
 The length of S is at least 1 and at most 10^5.
 
 ## Output Format
-If the code in 𝑆 uses brackets correctly, output “Success" (without the quotes). Otherwise,
+If the code in S uses brackets correctly, output "Success" (without the quotes). Otherwise,
 output the 1-based index of the first unmatched closing bracket, and if there are no unmatched closing
 brackets, output the 1-based index of the first unmatched opening bracket.
 
