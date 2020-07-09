@@ -30,3 +30,6 @@ The length of S is at least 1 and at most 10^5.
 If the code in 𝑆 uses brackets correctly, output “Success" (without the quotes). Otherwise,
 output the 1-based index of the first unmatched closing bracket, and if there are no unmatched closing
 brackets, output the 1-based index of the first unmatched opening bracket.
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
