@@ -23,10 +23,10 @@ The bracket [ corresponds to the bracket ], { corresponds to }, and ( correspond
 Input contains one string 𝑆 which consists of big and small latin letters, digits, punctuation
 marks and brackets from the set []{}().
 
-##Constraints
+## Constraints
 The length of S is at least 1 and at most 10^5.
 
-##Output Format
+## Output Format
 If the code in 𝑆 uses brackets correctly, output “Success" (without the quotes). Otherwise,
 output the 1-based index of the first unmatched closing bracket, and if there are no unmatched closing
 brackets, output the 1-based index of the first unmatched opening bracket.
