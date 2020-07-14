@@ -4,7 +4,7 @@ import java.io.IOException;
 import java.util.Stack;
 
 /**
- * @author Víctor Ruiz-Clavijo
+ * @author VÃ­ctor Ruiz-Clavijo
  *
  */
 class Bracket {
@@ -32,7 +32,7 @@ class Bracket {
 }
 
 /**
- * @author Víctor Ruiz-Clavijo
+ * @author VÃ­ctor Ruiz-Clavijo
  *
  */
 public class check_brackets {
@@ -43,14 +43,14 @@ public class check_brackets {
 
         Stack<Bracket> opening_brackets_stack = new Stack<Bracket>();
      
-         if (text.length()>1 && text.length()<= Math.pow(10, 5)) {				//Constraints
+         if (text.length()>1 && text.length()<= Math.pow(10, 5)) {			//Constraints
         	for (int position = 0; position < text.length(); position++) {
         		char next = text.charAt(position);
 
         		if (next == '(' || next == '[' || next == '{') {
         			
         			Bracket b = new Bracket(next, position);
-        			opening_brackets_stack.push(b);								//Add a bracket to the stack
+        			opening_brackets_stack.push(b);				//Add a bracket to the stack
         		}
         		if (next == ')' || next == ']' || next == '}') {
         			
