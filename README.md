@@ -2,8 +2,7 @@
 Feature for a text editor to find errors in the usage of brackets in the code.
 
 ## Problem description
-Your friend is making a text editor for programmers. He is currently working on a feature that will
-find errors in the usage of different types of brackets. Code can contain any brackets from the set
+Code can contain any brackets from the set
 []{}(), where the opening brackets are [,{, and ( and the closing brackets corresponding to them
 are ],}, and ).
 For convenience, the text editor should not only inform the user that there is an error in the usage
