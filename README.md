@@ -19,7 +19,7 @@ one of them is nested inside another one as in (foo[bar]) or they are separate a
 The bracket [ corresponds to the bracket ], { corresponds to }, and ( corresponds to ).
 
 ## Input Format
-Input contains one string 𝑆 which consists of big and small latin letters, digits, punctuation
+Input contains one string S which consists of big and small latin letters, digits, punctuation
 marks and brackets from the set []{}().
 
 ## Constraints
